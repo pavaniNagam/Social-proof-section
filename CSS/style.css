@@ -1,0 +1,86 @@
+body {
+    /* background-color: aquamarine; */
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    background-image:url(/images/bg-pattern-bottom-desktop.svg) , url(/images/bg-pattern-top-desktop.svg);
+    background-position: bottom, top;
+}
+
+.heading{
+    font-weight: 700;
+    color: #502050;
+}
+.sub-text{
+    color: #937b92;
+}
+.container {
+    padding: 30px;
+    padding-top: 80px;
+}
+.checked {
+    color: orange;
+  }
+
+  .rating-text{
+      color: #502050;
+      font-weight: bold;
+      font-size: 11px;
+  }
+  .rating-bg{
+      background-color:#f7f2f7;
+      width: 350px;
+      height: 50px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 30px;
+  }
+
+
+  .card{
+    width: 18rem;
+    background-color: #502050;
+  }
+  
+  .card-title{
+      color: white;
+      font-size: 13px;
+  }
+
+  .card-subtitle{
+      color: #ee68a4;
+      font-size: 10px;
+  }
+
+  .card-text{
+      color: white;
+      font-size: 10px;
+  }
+ 
+  .image{
+    border-radius: 50%;
+  }
+
+  .second{
+      margin-left: 40px;
+  }
+
+  .third{
+    margin-left: 80px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .second{
+        margin-left: 0px;
+    }
+  
+    .third{
+      margin-left: 0px;
+    }
+  }
