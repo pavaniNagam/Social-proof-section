@@ -2,7 +2,7 @@ body {
     /* background-color: aquamarine; */
     font-family: 'Spartan', sans-serif;
     font-size: 15px;
-    background-image:url("/images/bg-pattern-bottom-desktop.svg") , url('/images/bg-pattern-top-desktop.svg');
+    background-image:url(images/bg-pattern-bottom-desktop.svg) , url(images/bg-pattern-top-desktop.svg);
     background-position: bottom, top;
 }
 
